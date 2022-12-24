@@ -37,13 +37,13 @@ for (int i = 0; i < array.GetLength(0); i++)
     {
         sum += array[i, j];
     }
-    if(sum < MinSum)
-        {
-            MinSum = sum;
-            indexMinRow = i;
-        }
+    if (sum < MinSum)
+    {
+        MinSum = sum;
+        indexMinRow = i;
+    }
     Console.WriteLine(sum);
-    
+
 
 }
 Console.WriteLine();
